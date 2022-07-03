@@ -1,0 +1,88 @@
+.header {
+  height: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgba(120, 195, 120, 0.826);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header {
+    height: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header h1 {
+  margin: 0;
+}
+
+.header img {
+  width: 20px;
+  height: 20px;
+}
+
+.header div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(26, 234, 75, 0.724);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header div:last-child:hover {
+  background-color: rgb(12, 214, 59);
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  position: fixed;
+  z-index: 103;
+  top: 15px;
+  right: 100px;
+}
+.cart span {
+  padding-left: 10px;
+}
+
+.puls {
+  animation-name: pulsation;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+}
+
+@keyframes pulsation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+    background-color: rgb(225, 255, 0);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

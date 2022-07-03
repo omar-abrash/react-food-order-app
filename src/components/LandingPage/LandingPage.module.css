@@ -1,0 +1,38 @@
+.landing {
+  position: relative;
+  height: 500px;
+}
+.landing img {
+  width: 100%;
+  height: 500px;
+}
+
+.landing div:last-child {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -500px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(180, 210, 91, 0.674);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .landing div:last-child {
+    width: 350px;
+  }
+}
+
+.landing div:last-child p {
+  width: 350px;
+  height: 80%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}

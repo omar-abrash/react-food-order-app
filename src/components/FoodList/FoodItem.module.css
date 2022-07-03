@@ -1,0 +1,47 @@
+.food-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.food-item img {
+  width: 80px;
+  height: 80px;
+}
+.food-item div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label,
+input {
+  margin-bottom: 5px;
+}
+.form input {
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: greenyellow;
+  border: none;
+}
+
+.btn {
+  height: 50px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.btn:hover,
+.form input:hover {
+  font-size: 1.02rem;
+  font-weight: bold;
+  background-color: rgb(120, 255, 47);
+  border: 1px solid rgb(58, 138, 40);
+  box-shadow: 5px 5px 10px rgb(152, 206, 34);
+}
