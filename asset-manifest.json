@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-food-order-app/static/css/main.c84ada9f.chunk.css",
+    "main.js": "/react-food-order-app/static/js/main.fc1f8e6f.chunk.js",
+    "main.js.map": "/react-food-order-app/static/js/main.fc1f8e6f.chunk.js.map",
+    "runtime-main.js": "/react-food-order-app/static/js/runtime-main.4d41edda.js",
+    "runtime-main.js.map": "/react-food-order-app/static/js/runtime-main.4d41edda.js.map",
+    "static/js/2.2aea6a35.chunk.js": "/react-food-order-app/static/js/2.2aea6a35.chunk.js",
+    "static/js/2.2aea6a35.chunk.js.map": "/react-food-order-app/static/js/2.2aea6a35.chunk.js.map",
+    "index.html": "/react-food-order-app/index.html",
+    "static/css/main.c84ada9f.chunk.css.map": "/react-food-order-app/static/css/main.c84ada9f.chunk.css.map",
+    "static/js/2.2aea6a35.chunk.js.LICENSE.txt": "/react-food-order-app/static/js/2.2aea6a35.chunk.js.LICENSE.txt",
+    "static/media/Mansaf.ccc4b7c4.jpg": "/react-food-order-app/static/media/Mansaf.ccc4b7c4.jpg",
+    "static/media/foodPhoto2.f5d11ab6.jpg": "/react-food-order-app/static/media/foodPhoto2.f5d11ab6.jpg",
+    "static/media/kabab.57e921c4.jpg": "/react-food-order-app/static/media/kabab.57e921c4.jpg",
+    "static/media/kofta.9d6ac04e.jpg": "/react-food-order-app/static/media/kofta.9d6ac04e.jpg",
+    "static/media/yalangi.5883813f.jpg": "/react-food-order-app/static/media/yalangi.5883813f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d41edda.js",
+    "static/js/2.2aea6a35.chunk.js",
+    "static/css/main.c84ada9f.chunk.css",
+    "static/js/main.fc1f8e6f.chunk.js"
+  ]
+}
